@@ -1,4 +1,4 @@
-import org.shabunc.bugreport.kt_new.textUtils.ping
+import org.shabunc.bugreport.kt_51110.textUtils.ping
 import kotlin.test.*
 
 class Tests {

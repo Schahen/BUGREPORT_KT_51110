@@ -5,7 +5,7 @@ pluginManagement {
     }
     
 }
-rootProject.name = "KT-NEW"
+rootProject.name = "KT-51110"
 
 include("core")
 include("test-utils")
