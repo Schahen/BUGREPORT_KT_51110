@@ -8,9 +8,7 @@ repositories {
 }
 
 kotlin {
-    js(IR) {
-        browser()
-    }
+    jvm()
     sourceSets {
         commonMain {
             dependencies {

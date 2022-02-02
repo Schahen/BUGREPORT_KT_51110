@@ -15,13 +15,11 @@ kotlin {
         }
     }
 
-    js(IR) {
-        browser()
-    }
+    jvm()
     sourceSets {
-        val jsTest by getting {
+        val jvmTest by getting {
             dependencies {
-                implementation(kotlin("test-js"))
+                implementation(kotlin("test"))
                 implementation(project(":test-utils"))
             }
         }
