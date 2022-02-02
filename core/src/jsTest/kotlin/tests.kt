@@ -4,7 +4,6 @@ import kotlin.test.*
 class Tests {
     @Test
     fun someTest() {
-        val a = null
         assertTrue(ping())
     }
 }
